@@ -1,0 +1,109 @@
+﻿body {
+	width: 100%;
+	max-width: 1280px;
+	margin: 0 auto;
+	font-family: 'Open Sans', Arial;
+	color: #333;
+}
+
+.logo {
+	display: block;
+	width: 104px;
+	margin: 20px auto;
+}
+
+
+
+
+a {
+	color: #333;
+}
+
+img {
+	border: none;
+}
+
+
+
+@media (max-width: 700px) {
+	
+@media (max-width: 510px) {
+	
+header .link {
+	text-align: center;
+}
+
+.example {
+	margin: 20px 0 50px;
+}
+
+.example-switcher {
+	overflow: hidden;
+}
+
+.example-switcher div {
+	cursor: pointer;
+	display: block;
+	float: left;
+	width: 25%;
+	height: 50px;
+	border: 1px solid #FFF;
+	border-width: 0 1px;
+	background-color: #F4F4F4;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+	-moz-transition: height 0.5s;
+	-webkit-transition: height 0.5s;
+	transition: height 0.5s;
+}
+
+.grid-accordion .example-switcher div {
+	width: 23%;
+}
+
+@media (min-width: 800px) {
+	.example-switcher:hover div {
+		height: 170px;
+	}
+}
+
+.example-switcher p {
+	text-align: center;
+}
+
+.example-switcher ul {
+	font-size: 13px;
+	list-style: none;
+	padding-left: 20px;
+}
+
+
+@media (max-width: 960px) {
+	.example {
+		margin-left: 10px;
+		margin-right: 10px;
+	}
+}
+
+@media (max-width: 820px) {
+	.features .feature {
+		width: 49%;
+	}
+}
+
+@media (max-width: 530px) {
+	.features .feature {
+		width: 100%;
+	}
+}
+
+
+@media (max-width: 580px) {
+
+#___plusone_0,
+#___plusone_0 iframe {
+	width: 50px !important;
+}
+
+@media (max-width: 720px) {
